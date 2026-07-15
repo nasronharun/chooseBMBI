@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free of Life - Choose Language / Pilih Bahasa</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .logo-placeholder {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        .brand-subtext {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-bottom: 35px;
+        }
+
+        .instruction {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 25px;
+            color: #555;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .lang-btn {
+            display: block;
+            background: #34495e;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Subtle differences to visually separate the choices */
+        .btn-bm {
+            background: #2980b9;
+        }
+        
+        .btn-bi {
+            background: #27ae60;
+        }
+
+        .lang-btn:hover, .lang-btn:active {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            filter: brightness(1.05);
+        }
+
+        .footer {
+            margin-top: 35px;
+            font-size: 12px;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Brand Identity -->
+        <div class="logo-placeholder">FREE OF LIFE</div>
+        <div class="brand-subtext">Welcome • Selamat Datang</div>
+        
+        <!-- Language Instruction -->
+        <div class="instruction">
+            Please select your preferred language:<br>
+            <span style="font-size: 14px; color: #7f8c8d; font-weight: normal;">Sila pilih bahasa pilihan anda:</span>
+        </div>
+
+        <!-- Action Buttons (Update the href links below) -->
+        <div class="btn-group">
+            <a href="https://yourwebsite.com/freeoflife/bm" class="lang-btn btn-bm">
+                Bahasa Melayu
+            </a>
+            <a href="https://yourwebsite.com/freeoflife/en" class="lang-btn btn-bi">
+                English
+            </a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Free of Life. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
